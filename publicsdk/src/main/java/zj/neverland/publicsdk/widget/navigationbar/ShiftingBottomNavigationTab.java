@@ -11,7 +11,7 @@ import android.view.animation.Transformation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import cn.cefoc.R;
+import zj.neverland.publicsdk.R;
 
 
 /**

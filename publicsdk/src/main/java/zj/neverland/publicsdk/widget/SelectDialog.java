@@ -20,7 +20,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import cn.cefoc.R;
+import zj.neverland.publicsdk.R;
+
 
 /**
  * 选择对话框

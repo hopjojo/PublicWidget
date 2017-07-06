@@ -13,8 +13,9 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
 
-import cn.cefoc.R;
-import cn.cefoc.utils.DensityUtils;
+import zj.neverland.publicsdk.R;
+import zj.neverland.publicsdk.utils.DensityUtils;
+
 
 /**
  * @author ZhaiJian

@@ -5,8 +5,8 @@ import android.content.Context;
 import org.xutils.DbManager;
 import org.xutils.x;
 
-import cn.cefoc.utils.PreferenceUtils;
-import cn.cefoc.utils.StringUtils;
+import zj.neverland.publicsdk.utils.PreferenceUtils;
+import zj.neverland.publicsdk.utils.StringUtils;
 
 /**
  * Created by cefoc on 2017/5/2.

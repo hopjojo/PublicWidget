@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.widget.FrameLayout;
 
-import cn.cefoc.R;
+import zj.neverland.publicsdk.R;
 
 
 /**

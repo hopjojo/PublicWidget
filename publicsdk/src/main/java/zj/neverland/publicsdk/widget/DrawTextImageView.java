@@ -6,7 +6,8 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import cn.cefoc.R;
+import zj.neverland.publicsdk.R;
+
 
 /**
  * @author ZhaiJian

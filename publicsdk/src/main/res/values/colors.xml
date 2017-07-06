@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_2">#2a4253</color>
+    <color name="bottomtab_normal">#110000</color>
+    <color name="bottomtab_press">#b6292d</color>
+    <color name="line">#c8bca5</color>
+    <color name="titleColor">#FFFFFF</color>
+    <!-- common -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#8f000000</color>
+    <color name="orange">#f27242</color>
+
+    <!-- background -->
+    <color name="bg">#FFF5F5F5</color>
+    <color name="bg_pressed">#FFF2F2F2</color>
+    <color name="listview_header_bg">#F7F7F7</color>
+
+    <!-- material design black font color -->
+
+    <color name="font_black_0">#212121</color>
+    <color name="font_black_1">#424242</color>
+    <color name="font_black_2">#616161</color>
+    <color name="font_black_3">#757575</color>
+    <color name="font_black_4">#9e9e9e</color>
+    <color name="font_black_5">#bdbdbd</color>
+    <color name="font_black_6">#e0e0e0</color>
+
+    <color name="border_color">#e1e1e1</color>
+    <!-- divider -->
+    <color name="divider_1">#e2e2e2</color>
+    <color name="divider_2">#e6e6e6</color>
+    <color name="next_choice">#24AA42</color>
+    <color name="next_close">#FAD603</color>
+    <color name="next_sure">#FF8831</color>
+
+    <color name="primary_color">#FF4090DB</color>
+    <color name="primary_gray">#FFDFDFDF</color>
+
+
+    <color name="home_bar_color">#7a7e83</color>
+    <color name="person_del_color">#646464</color>
+    <color name="search_bar_ground">#F0EFF5</color>
+
+    <color name="divider_color">#e1e1e1</color>
+
+
+    <color name="progress_dialog_color">#bdbdbd </color>
+    <color name="my_progressbar">#1986EA </color>
+    <color name="navigation_bar_line">#00000000 </color>
+
+
+
+    <!--模块的分割线：#e5e5e5  RGB 229 229 229-->
+    <color name="back_list_color">#e5e5e5</color>
+
+    <!--背景色：#f1f1f1  RGB 241 241 241-->
+    <color name="back_ground_color">#f1f1f1</color>
+
+    <!--特别突出的标题字、按钮等：#29a1f7  RGB 41 161 247-->
+    <color name="dialog_bar_color">#29a1f7</color>
+
+    <!--主要文字颜色#323232，次要文字颜色#9b9b9b（RGB 155 155 155）-->
+    <color name="main_fontcolor">#323232</color>
+    <color name="sub_fontcolor">#9b9b9b</color>
+
+    <!--二维码-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+</resources>

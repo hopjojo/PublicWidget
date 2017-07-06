@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyProgressBar" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">#1986EA</item>
+        <item name="android:indeterminateTintMode">src_atop</item>
+    </style>
+</resources>

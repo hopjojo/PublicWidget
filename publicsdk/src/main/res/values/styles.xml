@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--有提示文字的ProgressDialog-->
+    <style name="MyDialogMes" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- 去除对话框默认的白色边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否使activity底色透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 对话框标题是否显示 -->
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 设定自己的圆角背景 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 对话框的黑色背景是否透明展示 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--&lt;!&ndash; 设置透明度，可以设0到1中间的值，0-1越来越不透明 &ndash;&gt;-->
+        <!--<item name="android:backgroundDimAmount">0.6</item>-->
+    </style>
+    <style name="MyProgressBar" parent="Base.Widget.AppCompat.ProgressBar"/>
+
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/photo_dialog_in_anim</item>
+        <item name="android:windowExitAnimation">@anim/photo_dialog_out_anim</item>
+    </style>
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+    <style name="AnimHead" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/head_in</item>
+        <item name="android:windowExitAnimation">@anim/head_out</item>
+    </style>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_out</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--导航栏自定义属性-->
+    <declare-styleable name="CustomToolbar">
+        <attr name="LeftBtnVisibility">
+            <enum name="visible" value="0"/>
+            <enum name="gone" value="8"/>
+            <enum name="invisible" value="4"/>
+        </attr>
+        <attr name="RightBtnVisibility">
+            <enum name="visible" value="0"/>
+            <enum name="gone" value="8"/>
+            <enum name="invisible" value="4"/>
+        </attr>
+        <attr name="LeftBtnText" format="string"/>
+        <attr name="RightBtnText" format="string"/>
+        <attr name="RightBtnImg" format="reference"/>
+        <attr name="titleText" format="string"/>
+        <attr name="LeftBtnColor" format="color"/>
+        <attr name="RightBtnColor" format="color"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="LeftBtnSize" format="dimension"/>
+        <attr name="RightBtnSize" format="dimension"/>
+        <attr name="titleSize" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -8,7 +8,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import cn.cefoc.R;
+import zj.neverland.publicsdk.R;
+
 
 /**
  * @author ZhaiJian

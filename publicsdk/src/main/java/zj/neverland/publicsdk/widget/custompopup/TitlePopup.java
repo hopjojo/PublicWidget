@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import cn.cefoc.R;
+import zj.neverland.publicsdk.R;
 
 
 /**

@@ -26,10 +26,11 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;
 
-import cn.cefoc.R;
-import cn.cefoc.widget.navigationbar.behaviour.BottomNavBarFabBehaviour;
-import cn.cefoc.widget.navigationbar.behaviour.BottomVerticalScrollBehavior;
-import cn.cefoc.widget.navigationbar.utils.Utils;
+import zj.neverland.publicsdk.R;
+import zj.neverland.publicsdk.widget.navigationbar.behaviour.BottomNavBarFabBehaviour;
+import zj.neverland.publicsdk.widget.navigationbar.behaviour.BottomVerticalScrollBehavior;
+import zj.neverland.publicsdk.widget.navigationbar.utils.Utils;
+
 
 /**
  * Class description : This class is used to draw the layout and this acts like a bridge between

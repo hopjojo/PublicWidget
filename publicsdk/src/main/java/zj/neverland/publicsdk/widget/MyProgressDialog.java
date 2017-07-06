@@ -2,6 +2,7 @@ package zj.neverland.publicsdk.widget;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +10,8 @@ import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import cn.cefoc.R;
-import cn.cefoc.utils.StringUtils;
+import zj.neverland.publicsdk.R;
+
 
 /**
  * Created by sjzhand on 2017/2/20.
@@ -45,7 +46,7 @@ public class MyProgressDialog{
     }
 
     public void setMessage(String msg){
-        if(!StringUtils.isEmpty(msg)){
+        if(!TextUtils.isEmpty(msg)){
             tv_load_dialog.setText(msg);
             tv_load_dialog.setVisibility(View.VISIBLE);
         }else{

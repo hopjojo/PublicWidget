@@ -11,7 +11,8 @@ import android.view.animation.Interpolator;
 import java.lang.ref.WeakReference;
 import java.util.List;
 
-import cn.cefoc.widget.navigationbar.BottomNavigationBar;
+import zj.neverland.publicsdk.widget.navigationbar.BottomNavigationBar;
+
 
 /**
  * Class description

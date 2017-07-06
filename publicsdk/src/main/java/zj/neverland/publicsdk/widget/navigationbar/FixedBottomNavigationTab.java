@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import cn.cefoc.R;
+import zj.neverland.publicsdk.R;
 
 
 /**

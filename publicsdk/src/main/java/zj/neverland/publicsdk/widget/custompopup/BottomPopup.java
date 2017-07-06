@@ -19,7 +19,8 @@ import android.widget.TextView;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
-import cn.cefoc.R;
+import zj.neverland.publicsdk.R;
+
 
 /**
  * @author ZhaiJian
