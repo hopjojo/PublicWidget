@@ -53,15 +53,14 @@ class FileDownloadManager {
         req.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
         //点击正在下载的Notification进入下载详情界面，如果设为true则可以看到下载任务的进度，如果设为false，则看不到我们下载的任务
         req.setVisibleInDownloadsUi(updaterConfig.isShowDownloadUI());
-
+        String apkName = uri.getLastPathSegment();
         //设置文件的保存的位置[三种方式]
         //第一种
         //file:///storage/emulated/0/Android/data/your-package/files/Download/update.apk
-//        req.setDestinationInExternalFilesDir(updaterConfig.getContext(), Environment.DIRECTORY_DOWNLOADS, "update.apk");
+        req.setDestinationInExternalFilesDir(updaterConfig.getContext(), Environment.DIRECTORY_DOWNLOADS, apkName);
         //第二种
         //file:///storage/emulated/0/Download/update.apk
-        String apkName = uri.getLastPathSegment();
-        req.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, apkName);
+//        req.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, apkName);
         //第三种 自定义文件路径
         //req.setDestinationUri()
 
@@ -71,7 +70,7 @@ class FileDownloadManager {
         req.setDescription(updaterConfig.getDescription());
 
 
-        //req.setMimeType("application/vnd.android.package-archive");
+        req.setMimeType("application/vnd.android.package-archive");
 
         long id = getDM(updaterConfig.getContext()).enqueue(req);
         //把DownloadId保存到本地

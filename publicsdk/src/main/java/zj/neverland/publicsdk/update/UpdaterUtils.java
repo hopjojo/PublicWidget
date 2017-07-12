@@ -5,8 +5,13 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
+import android.support.v4.content.FileProvider;
 
+import java.io.File;
 import java.util.List;
+
+import zj.neverland.publicsdk.BuildConfig;
 
 /**
  * Created by cfoc on 2017/06/12
@@ -17,8 +22,16 @@ public class UpdaterUtils {
 
     public static void startInstall(Context context, Uri uri) {
         Intent install = new Intent(Intent.ACTION_VIEW);
-        install.setDataAndType(uri, "application/vnd.android.package-archive");
-        install.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            File apkFile = new File(uri.getPath());
+            install.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            Uri contentUri = FileProvider.getUriForFile(context,
+                    BuildConfig.APPLICATION_ID + ".fileProvider", apkFile);
+            install.setDataAndType(contentUri, "application/vnd.android.package-archive");
+        } else {
+            install.setDataAndType(uri, "application/vnd.android.package-archive");
+            install.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        }
         context.startActivity(install);
     }
 
